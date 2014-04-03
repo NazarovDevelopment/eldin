@@ -31,7 +31,12 @@ namespace Electrodynamics
 
         private void potentialToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            WindowManager.Instance.CreatePointsPoten();
+            WindowManager.Instance.CreateElectroStat();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            WindowManager.Instance.CreateElectroStat();
         }
 
    

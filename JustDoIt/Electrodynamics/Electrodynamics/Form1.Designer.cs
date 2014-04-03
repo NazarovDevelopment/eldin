@@ -34,6 +34,7 @@
             this.eleToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pointsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.potentialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ButtonElectrostatics = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,7 +69,7 @@
             this.eleToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pointsToolStripMenuItem});
             this.eleToolStripMenuItem.Name = "eleToolStripMenuItem";
-            this.eleToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.eleToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.eleToolStripMenuItem.Text = "Electrostatics";
             this.eleToolStripMenuItem.Click += new System.EventHandler(this.eleToolStripMenuItem_Click);
             // 
@@ -77,15 +78,25 @@
             this.pointsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.potentialToolStripMenuItem});
             this.pointsToolStripMenuItem.Name = "pointsToolStripMenuItem";
-            this.pointsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pointsToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.pointsToolStripMenuItem.Text = "Points";
             // 
             // potentialToolStripMenuItem
             // 
             this.potentialToolStripMenuItem.Name = "potentialToolStripMenuItem";
-            this.potentialToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.potentialToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.potentialToolStripMenuItem.Text = "Potential";
             this.potentialToolStripMenuItem.Click += new System.EventHandler(this.potentialToolStripMenuItem_Click);
+            // 
+            // ButtonElectrostatics
+            // 
+            this.ButtonElectrostatics.Location = new System.Drawing.Point(40, 55);
+            this.ButtonElectrostatics.Name = "ButtonElectrostatics";
+            this.ButtonElectrostatics.Size = new System.Drawing.Size(213, 32);
+            this.ButtonElectrostatics.TabIndex = 1;
+            this.ButtonElectrostatics.Text = "Electrostatics";
+            this.ButtonElectrostatics.UseVisualStyleBackColor = true;
+            this.ButtonElectrostatics.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -93,6 +104,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.ClientSize = new System.Drawing.Size(299, 568);
+            this.Controls.Add(this.ButtonElectrostatics);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
@@ -112,6 +124,7 @@
         private System.Windows.Forms.ToolStripMenuItem eleToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pointsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem potentialToolStripMenuItem;
+        private System.Windows.Forms.Button ButtonElectrostatics;
     }
 }
 

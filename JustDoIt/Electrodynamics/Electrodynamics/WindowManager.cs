@@ -20,7 +20,7 @@ namespace Electrodynamics
 
         }
 
-        public void CreatePointsPoten()
+        public void CreateElectroStat()
         {
             Thread tr = new Thread(init);
             tr.Start();
@@ -28,7 +28,7 @@ namespace Electrodynamics
 
         private void init()
         {
-            PointsPoten newPP = new PointsPoten();
+            FormForEStatic newPP = new FormForEStatic();
             newPP.ShowDialog();
         }
 

@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Charge.cs" />
+    <Compile Include="ChargedLine.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +58,8 @@
     <Compile Include="FormForEStatic.Designer.cs">
       <DependentUpon>FormForEStatic.cs</DependentUpon>
     </Compile>
+    <Compile Include="GraphicElStatic.cs" />
+    <Compile Include="PointXY.cs" />
     <Compile Include="PointsPoten.cs">
       <SubType>Form</SubType>
     </Compile>
